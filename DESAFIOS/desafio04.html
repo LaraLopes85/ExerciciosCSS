@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> desafio 4 </title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0 auto;
+            background-color: #f8ecd9;
+        }
+         header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .rodapé {
+            background-color: #61392d;
+        }
+
+        main{
+            margin-top: 260px;
+        }
+        p{
+           text-align: justify;
+           line-height: 1.5em;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           padding: 10px 30px;
+        }
+        .menu_top{
+            width: 100%;
+            height: 170px;
+            border-bottom: 3px#61392d;
+            border-top: 10px #61392d;
+            background-color: #f8ecd9;
+        }
+        .top_esp{
+            width: 140px;
+            float: left;
+            padding: 10px;
+        }
+        .top_dir{
+            float: left;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 100px;
+            color: #7e351f;
+            padding-left: 9%;
+            padding-top: 20px;
+        }
+        .clear{
+            clear: both;
+        }
+        .menu{
+            background-color: #61392d;
+            width: 100%;
+            height: 60px;
+ 
+        }
+        .menu ul{
+            padding: 0;
+            max-width: 500px;
+        }
+        .menu ul li{          
+            background-color:  #61392d;
+            color: #f8ecd9;
+            float: left;
+            width: 100px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            background-color:rgb(145, 84, 84); 
+        }
+        
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+        }
+        .menu ul ul li:hover{
+            background-color:rgb(145, 84, 84); 
+        }
+        .menu ul ul ul li:hover{
+            background-color:rgb(89, 61, 61); 
+        }
+
+        
+        .esquerda{
+            height: 400px;
+            width: 400px;
+            float: left;
+            margin: 250px 150px 20px 100px;     
+        }
+
+        .meio{
+            height: 400px;
+            width: 100%;
+
+      
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu_top">
+        <div class="top_esp">
+        <figure>
+        <img src="img/logo pascoa.jpg" alt="logo" height="140px">
+        </figure>
+        </div>
+        <div class="top_dir">
+        CHOCOLATERIA SANTA CRUZ
+        </div>
+        <div class="clear"></div>
+            <nav class="menu">
+                <ul>
+                    <li>HOME</li>
+                    <li>DOCES
+                        <ul>
+                            <li>bolos</li>
+                            <li>cupcakes</li>
+                            <li>docinhos
+                        </ul>
+                    </li>
+                    <li>OVOS
+                        <ul>
+                            <li>200 gramas</li>
+                            <li>350 gramas</li>
+                            <li>500 gramas
+                                <ul>
+                                    <li>Capital</li>
+                                    <li>Interior</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>TRUFAS
+                        <ul>
+                            <li>5 unidades</li>
+                            <li>10 unidades</li>
+                            <li>20 unidades
+                        </ul>
+                    </li>
+                    <li>SAIBA MAIS</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+        <main>
+        <div class="meio">
+            <img src="img/banner de pascoa.png" alt="" width="100%" style="margin-top: -80px;"> 
+        </div>
+        <div class="clear"></div>
+
+        <div>
+            <div class="esquerda"><img src="img/ovo 1.png" alt="" width="600"></div>
+            <div class="esquerda"><img src="img/ovo 2.png" alt=""  width="600"></div>
+            <div class="esquerda"><img src="img/ovo 3.png" alt=""  width="600"></div>
+        </div>
+
+        <div>
+            <div class="esquerda"><img src="img/ovo 1.png" alt="" width="600"></div>
+            <div class="esquerda"><img src="img/ovo 2.png" alt=""  width="600"></div>
+            <div class="esquerda"><img src="img/ovo 3.png" alt=""  width="600"></div>
+        </div>
+        </main>
+
+        <div>
+           <footer>
+
+        </footer>  
+        </div>
+       
+</body>
+</html>
+
